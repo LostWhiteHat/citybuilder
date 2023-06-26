@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWindowsForms>true</UseWindowsForms>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Svg" Version="3.4.4" />
+        <PackageReference Include="System.Resources.ResourceManager" Version="4.3.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Compile Update="Resources\images.Designer.cs">
+            <DesignTime>True</DesignTime>
+            <AutoGen>True</AutoGen>
+            <DependentUpon>Images.resx</DependentUpon>
+        </Compile>
+        <Compile Update="Resources\MaxLevels.Designer.cs">
+            <DesignTime>True</DesignTime>
+            <AutoGen>True</AutoGen>
+            <DependentUpon>MaxLevels.resx</DependentUpon>
+        </Compile>
+        <Compile Update="Resources\Namespaces.Designer.cs">
+            <DesignTime>True</DesignTime>
+            <AutoGen>True</AutoGen>
+            <DependentUpon>Namespaces.resx</DependentUpon>
+        </Compile>
+        <Compile Update="Resources\WorkerTypes.Designer.cs">
+          <DesignTime>True</DesignTime>
+          <AutoGen>True</AutoGen>
+          <DependentUpon>WorkerTypes.resx</DependentUpon>
+        </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Update="Resources\Images.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>images.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
+        <EmbeddedResource Update="Resources\MaxLevels.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>MaxLevels.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
+        <EmbeddedResource Update="Resources\Namespaces.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>Namespaces.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
+        <EmbeddedResource Update="Resources\WorkerTypes.resx">
+          <Generator>ResXFileCodeGenerator</Generator>
+          <LastGenOutput>WorkerTypes.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
+    </ItemGroup>
+
+</Project>

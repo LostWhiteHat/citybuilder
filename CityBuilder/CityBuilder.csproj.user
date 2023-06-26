@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Class\Buildings\Building.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Class\Buildings\FireDepartment.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Class\Buildings\Hospital.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Class\Buildings\House.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Class\Buildings\Office.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Class\Buildings\PoliceDepartment.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Class\Buildings\Store.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Class\Misc\Burn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Class\Persons\ApplicationDeveloper.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Class\Persons\Doctor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Class\Persons\Firefighter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Class\Persons\ITSpecialist.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Class\Persons\MedicalPracticeAssistant.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Class\Persons\MedicalStaff.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Class\Persons\Person.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Class\Persons\PlatformDeveloper.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Class\Persons\Police.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Class\Persons\RetailSpecialist.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Class\Persons\SecurityStaff.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Class\Persons\SpecializedStaff.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="UI\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\Namespaces.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
